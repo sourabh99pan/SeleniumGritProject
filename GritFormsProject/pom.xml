@@ -30,7 +30,7 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>D:\Guru\CucumberAndMaven\src\test\java\GritFormsProject\TestNG_Grit.xml</suiteXmlFile>
+						<suiteXmlFile>C:\Users\soura\git\SeleniumGritProject\GritFormsProject\TestNG_Grit.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
