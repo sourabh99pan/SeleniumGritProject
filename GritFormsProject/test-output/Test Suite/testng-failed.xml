@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]" parallel="methods">
+  <parameter name="appURL" value="https://demoqa.com/text-box"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="com.vsysq.base.TestListener"/>
+  </listeners>
+  <test name="ToolsQA Tests">
+    <classes>
+      <class name="com.tests.TC_Element_Dynamic_Properties"/>
+    </classes>
+  </test> <!-- ToolsQA Tests -->
+</suite> <!-- Failed suite [Test Suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="1" parallel="methods" thread-count="2">
+	<listeners>
+		<listener class-name="com.vsysq.base.TestListener" />
+	</listeners>
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL" 
+	 value="https://demoqa.com/text-box" />
+	<test name="ToolsQA Tests">
+		<classes>
+			<!-- <class name="com.tests.TC_Element_WebTable" />	 /-->
+			<!-- <class name="com.tests.Democlass" />/-->
+			 <!-- <class name="com.tests.Droppable" />/-->
+			<!--  <class name="com.tests.TC_Element_CheckBox" /-->
+			<!-- <class name="com.tests.TC_Element_Images" />-->
+			 <class name="com.tests.TC_Element_Dynamic_Properties" />
+		</classes>
+	</test>
+
+</suite>
+

@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5022143800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "free crm create deal test",
+        "description": "",
+        "id": "free-toolsqa-app-test;free-crm-create-deal-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1130066900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1103424800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on toolsqa page",
+            "match": {
+              "location": "Hooks_StepDefinition.User_is_accesing_ToolsQAe()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6682500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user fills the form",
+            "match": {
+              "location": "Hooks_StepDefinition.user_fills_the_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 608941600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "deal is created on toolsQA",
+            "match": {
+              "location": "Hooks_StepDefinition.deal_is_created_on_toolsQA()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free ToolsQA app test",
+    "description": "",
+    "id": "free-toolsqa-app-test",
+    "keyword": "Feature",
+    "uri": "D:/Guru/FreeCrmBDDFramework/src/main/java/Features/hooks.feature"
+  }
+]

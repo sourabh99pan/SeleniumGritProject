@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="1">
+	<listeners>
+		<listener class-name="com.vsysq.base.TestListener" />
+	</listeners>
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL1" 
+	 value="https://terex--QA.cs29.my.salesforce.com" />
+	<parameter name="appURL"
+	  	 value="https://test.salesforce.com" />
+		<parameter name="appURL3"
+		value="https://terex--GLightning.cs43.my.salesforce.com" />
+	<test name="Admin Tests">
+		<groups>
+
+			<define name="all">
+				<include name="functest" />
+				<include name="MPOpportunity" />
+				
+				
+			</define>
+
+			<run>
+				<include name="all" />
+			</run>
+
+		</groups>
+		<classes>
+		<!-- out of scope
+			<class name="com.tests.TC_MPAdvanceMixersOpptyApprovalProcess1" />
+			<class name="com.tests.TC_MPAdvMixersOpptyApprovalProcess1_SalesMg" />
+			<class name="com.tests.TC_MPAdvMixersOpptyApprovalProcess2_SalesMg" />
+			<class name="com.tests.TC_MPCBIStandardTermsApprovalProcessRichard" />
+			 -->
+			
+			<!-- problem in execution
+			<class name="com.tests.TC_MP_CBI_Non_Standard_Other_Owners_Processooptyapprovalprocess" /> 
+			not able to select the add product button
+			
+			
+			 -->
+			 
+			 
+			 
+			 
+			<class name="MPE2EFlow.TC_MP_PS_ChinaOpptyApprovalProcess_Director" />
+			
+		
+		
+			
+			
+			<!-- MP DOA Process-->
+			<!-- 
+			<class name="MPE2EFlow.TC_MP_PS_ChinaOpptyApprovalProcess_Director" /> 'Need to check the second approver its not correct
+			
+			<class name="MPE2EFlow.TC_MP_PS_ChinaOpptyApprovalProcess_Mgr" />
+			<class name="MPE2EFlow.TC_MP_PS_ChinaOpptyApprovalProcess_RSM" />
+			<class name="MPE2EFlow.TC_MPAdvanceMixerSalesManagerN_SD_F" />
+			<class name="MPE2EFlow.TC_MPBidwellOpptyApprovalProcess1" />
+			<class name="MPE2EFlow.TC_MPBidwellOpptyApprovalProcess2" />
+			<class name="MPE2EFlow.TC_MPBidwellOpptyApprovalProcess3" />
+			<class name="MPE2EFlow.TC_MPCBIStandardOtherOwnersProcess" />
+			<class name="MPE2EFlow.TC_MPCBIStandardOwnerBasedProcessN1" />
+			<class name="MPE2EFlow.TC_MPCBIStandardOwnerBasedProcessN2" />
+			<class name="MPE2EFlow.TC_MPEcotecOpportunityApprovalProcess_Conor" />
+			<class name="MPE2EFlow.TC_MPEcotecOpportunityApprovalProcess" />
+			<class name="MPE2EFlow.TC_MPEvoQuipOpportunityApprovalProcess" />
+			<class name="MPE2EFlow.TC_MPEvoQuipOpportuntyApprovlProcess_Martin" />
+			<class name="MPE2EFlow.TC_MPFinlayOpportunityApprovalProcess_Paul" />
+			<class name="MPE2EFlow.TC_MPFinlayOpportunityApprovalProcess" />
+			<class name="MPE2EFlow.TC_MPFrannaOpptyApprovalProcess_RSM" />
+			<class name="MPE2EFlow.TC_MPFrannaOpptyApprovalProcess_SalesDir" />
+			<class name="MPE2EFlow.TC_MPFrannaOpptyApprovalProcess_SalesMgr" />
+			<class name="MPE2EFlow.TC_MPFuchsOpportunityDOA_RoW25_MHL_Commsn" />
+			<class name="MPE2EFlow.TC_MPFuchsOpportunityDOA_RoW25_MHL" />
+			<class name="MPE2EFlow.TC_MPFuchsOpportunityDOA_RoW30_NotMHL" />
+			<class name="MPE2EFlow.TC_MPFuchsOpportunityDOA_RoW40_NotMHL" />
+			<class name="MPE2EFlow.TC_MPFuchsOpportuntyDOA_AsiaRSM25_MHL" />
+			<class name="MPE2EFlow.TC_MPFuchsOpportuntyDOA_AsiaRSM30_NotMHL" />
+			<class name="MPE2EFlow.TC_MPFuchsOpptyDOA27_5_MHL_Heribert" />
+			<class name="MPE2EFlow.TC_MPFuchsOpptyDOA27_5MHL_Comsn_Heribert" />
+			<class name="MPE2EFlow.TC_MPFuchsOpptyDOA32_5_Not_MHL_Heribert" />
+			<class name="MPE2EFlow.TC_MPFuchsOpptyDOA40_NotMHL_Heribert" />
+			<class name="MPE2EFlow.TC_MPHosurExport2to5ApprovalProcess" />
+			<class name="MPE2EFlow.TC_MPHosurExport5ApprovalProcess" />
+			<class name="MPE2EFlow.TC_MPHosurFinlayApprovalProcess" />
+			<class name="MPE2EFlow.TC_MPHosurMalaysiaProcess" />
+			<class name="MPE2EFlow.TC_MPHosurPowerscreenApprovalProcess" />
+			<class name="MPE2EFlow.TC_MPLSVEvoQuipE2EApprovalProcess" />
+			<class name="MPE2EFlow.TC_MPLSVFinlayOpptyApprovalProcess" />
+			<class name="MPE2EFlow.TC_MPLSVFuchsOpptyApprovalProcess" />
+			<class name="MPE2EFlow.TC_MPLSVPowerscreenOpptyApprovalProcess" />
+			<class name="MPE2EFlow.TC_MPLSVTWSOpptyApprovalProcess_General4" />
+			<class name="MPE2EFlow.TC_MPLSVTWSOpptyApprovalProcess_RSM" />
+			<class name="MPE2EFlow.TC_MPMPSAmericasCedaRSM" />
+			<class name="MPE2EFlow.TC_MPMPSAmericasCRSMorSCM" />
+			<class name="MPE2EFlow.TC_MPMPSAmericasDealerNoRole" />
+			<class name="MPE2EFlow.TC_MPMPSAmericasSRSMorCSM" />
+			<class name="MPE2EFlow.TC_MPPowerscreenOpportunityAP_N" />
+			<class name="MPE2EFlow.TC_MPSAusOpptyApprovalProcess_SalesDir" />
+			<class name="MPE2EFlow.TC_MPSAusOpptyApprovalProcess_SalesMgr" />
+			<class name="MPE2EFlow.TC_MPSAustraliaOpptyApprovalProcess_RSM" />
+			<class name="MPE2EFlow.TC_MPTWSOpportunityApprovalProcess" />
+			<class name="MPE2EFlow.TC_MP_CBI_NonStandardOwnerBasedProcess" />
+			<class name="MPE2EFlow.TC_MPLSVEvoQuipOpportunityApproval_MattD" />
+			<class name="MPE2EFlow.TC_MPAdvanceMixerRSMSD_T_OR_F" />
+			<class name="MPE2EFlow.TC_MPAdvanceMixerSalesManagerN_SD_T" />
+			<class name="MPE2EFlow.TC_MP_MPSERAOpportunityProcess" />
+		
+			
+			 -->
+		
+	
+		<!-- LEAD ASSIGNMENT -->
+			<!--<class name="LeadTCs.TC_01_MPPowerscreenLead" />-->
+			<!--<class name="LeadTCs.TC_02_MPFinlayLead" />-->
+			<!--<class name="LeadTCs.TC_03_MPNewtonLead" />-->
+			<!--<class name="LeadTCs.TC_04_MPEcotecLead" />-->
+			<!--<class name="LeadTCs.TC_05_MPEvoQuipLead" />-->
+			<!--<class name="LeadTCs.TC_06_MPTWSLead" />-->
+			<!--<class name="LeadTCs.TC_07_MPFuchsLead" />-->
+			<!--<class name="LeadTCs.TC_08_MPLSVPowerscreenLead" />-->
+			<!--<class name="LeadTCs.TC_09_MPLSVFinlayLead" />-->
+			<!--<class name="LeadTCs.TC_010_LSVTWSLead" />-->
+			<!--<class name="LeadTCs.TC_011_MPLSVEvoQuipLead" />-->
+			<!--<class name="LeadTCs.TC_012_MPMPSLead" />-->
+			<!--<class name="LeadTCs.TC_013_MPAdvanceMixerLead" />-->
+			<!--<class name="LeadTCs.TC_014_MPBidwellLead" />-->
+			<!--<class name="LeadTCs.TC_015_MPFrannaLead" />-->
+			<!--<class name="LeadTCs.TC_016_MPCBILead" />-->
+		<!-- END -->
+			
+		<!-- USED EQUIPMENT -->
+			   <!--  <class name="UEQ.PurchaseOnly" /> -->	
+			 
+			
+
+				
+		</classes>
+	</test>
+
+</suite>
+

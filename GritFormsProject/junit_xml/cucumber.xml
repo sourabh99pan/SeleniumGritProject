@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.87126">
+    <testcase classname="Free ToolsQA app test" name="free crm create deal test" time="7.87126">
+        <system-out><![CDATA[Given user is on toolsqa page...............................................passed
+When user fills the form....................................................passed
+Then deal is created on toolsQA.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

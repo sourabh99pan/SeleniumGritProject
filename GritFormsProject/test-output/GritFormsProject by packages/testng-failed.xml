@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GritFormsProject by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="com.tests(failed)">
+    <classes>
+      <class name="com.tests.TC_MPFuchsOpptyDOA27_5_MHL_Heribert">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC018_MPFuchsE2EApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFuchsOpptyDOA27_5_MHL_Heribert -->
+      <class name="com.tests.TC_MP_PS_ChinaOpptyApprovalProcess_RSM">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_039_MP_PS_ChinaOpptyApprovalProcess_RSM"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MP_PS_ChinaOpptyApprovalProcess_RSM -->
+      <class name="com.tests.TC_MPHosurFinlayApprovalProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_041_MPHosurFinlayApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPHosurFinlayApprovalProcess -->
+      <class name="com.tests.TC_MPBidwellOpptyApprovalProcess1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_031_MPBidwellOpptyApprovalProcess1"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPBidwellOpptyApprovalProcess1 -->
+      <class name="com.tests.TC_MPHosurExport5ApprovalProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC057_MPHosurExport5ApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPHosurExport5ApprovalProcess -->
+      <class name="com.tests.TC_MPAdvMixersOpptyApprovalProcess1_SalesMg">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_027_MPAdvMixersOpptyApprovalProcess1_SalesMg"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPAdvMixersOpptyApprovalProcess1_SalesMg -->
+      <class name="com.tests.TC_MPAdvMixersOpptyApprovalProcess2_SalesMg">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_028_MPAdvMixersOpptyApprovalProcess2_SalesMg"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPAdvMixersOpptyApprovalProcess2_SalesMg -->
+      <class name="com.tests.TC_MPFuchsOpportunityDOA_RoW40_NotMHL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC014_MPFuchsE2EApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFuchsOpportunityDOA_RoW40_NotMHL -->
+      <class name="com.tests.TC_MPFrannaOpptyApprovalProcess_SalesMgr">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_052_MPFrannaOpptyApprovalProcess_SalesMgr"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFrannaOpptyApprovalProcess_SalesMgr -->
+      <class name="com.tests.TC_MPFuchsOpportunityDOA_RoW25_MHL_Commsn">
+        <methods>
+          <include name="TC012_MPFuchsE2EApprovalProcess"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFuchsOpportunityDOA_RoW25_MHL_Commsn -->
+      <class name="com.tests.TC_MPLSVFuchsOpptyApprovalProcess">
+        <methods>
+          <include name="TC023_MPLSVFuchsOpptyApprovalProcess"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPLSVFuchsOpptyApprovalProcess -->
+      <class name="com.tests.TC_MPCBIStandardOtherOwnersProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC03_MPCBIStandardOtherOwnersProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPCBIStandardOtherOwnersProcess -->
+      <class name="com.tests.TC_MP_CBI_NonStandardOwnerBasedProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_MPCBINONStandardOwnersBasedProcess"/>
+        </methods>
+      </class> <!-- com.tests.TC_MP_CBI_NonStandardOwnerBasedProcess -->
+      <class name="com.tests.TC_MPPowerscreenOpportunityAP_N">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_01_MPPowerscreenOpportunityApprovalProcessforopptyapproval"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPPowerscreenOpportunityAP_N -->
+      <class name="com.tests.TC_MPCBIStandardOwnerBasedProcessN1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC03_MPCBIStandardOtherOwnersProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPCBIStandardOwnerBasedProcessN1 -->
+      <class name="com.tests.TC_MP_PS_ChinaOpptyApprovalProcess_Director">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_038_MP_PS_ChinaOpptyApprovalProcess_Director"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MP_PS_ChinaOpptyApprovalProcess_Director -->
+      <class name="com.tests.TC_MPEvoQuipOpportuntyApprovlProcess_Martin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_09_MPEvoQuipOpportuntyApprovlProcess_Martin"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPEvoQuipOpportuntyApprovlProcess_Martin -->
+      <class name="com.tests.TC_MPLSVTWSOpptyApprovalProcess_General4">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_025_MPLSVTWSOpptyApprovalProcess_General4"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPLSVTWSOpptyApprovalProcess_General4 -->
+      <class name="com.tests.TC_MPEcotecOpportunityApprovalProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_06_MPEcotecOpportunityApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPEcotecOpportunityApprovalProcess -->
+      <class name="com.tests.TC_MPAdvanceMixersOpptyApprovalProcess1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_029_MPAdvanceMixersOpptyApprovalProcess1"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPAdvanceMixersOpptyApprovalProcess1 -->
+      <class name="com.tests.TC_MPSAustraliaOpptyApprovalProcess_RSM">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_054_MPSAustraliaOpptyApprovalProcess_RSM"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPSAustraliaOpptyApprovalProcess_RSM -->
+      <class name="com.tests.TC_MP_PS_ChinaOpptyApprovalProcess_Mgr">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_049_MP_PS_ChinaOpptyApprovalProcess_Mgr"/>
+        </methods>
+      </class> <!-- com.tests.TC_MP_PS_ChinaOpptyApprovalProcess_Mgr -->
+      <class name="com.tests.TC_MPTWSOpportunityApprovalProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_010_MPTWSOpportunityApprovalProcess"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPTWSOpportunityApprovalProcess -->
+      <class name="com.tests.TC_MPAdvanceMixerSalesManagerN_SD_F">
+        <methods>
+          <include name="TC_030_MPAdvanceMixerSalesManagerN"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPAdvanceMixerSalesManagerN_SD_F -->
+      <class name="com.tests.TC_MPFinlayOpportunityApprovalProcess_Paul">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_05_MPFinlayOpportunityApprovalProcess_Paul"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFinlayOpportunityApprovalProcess_Paul -->
+      <class name="com.tests.TC_MPMPSAmericasCedaRSM">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC037_MPMPSAmericasCedaRSM"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPMPSAmericasCedaRSM -->
+      <class name="com.tests.TC_MPFuchsOpportuntyDOA_AsiaRSM25_MHL">
+        <methods>
+          <include name="TC015_MPFuchsE2EApprovalProcess"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFuchsOpportuntyDOA_AsiaRSM25_MHL -->
+      <class name="com.tests.TC_MPHosurPowerscreenApprovalProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_043_MPHosurPowerscreenApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPHosurPowerscreenApprovalProcess -->
+      <class name="com.tests.TC_MPFinlayOpportunityApprovalProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_04_MPFinlayOpportunityApprovalProcess"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFinlayOpportunityApprovalProcess -->
+      <class name="com.tests.TC_MPLSVTWSOpptyApprovalProcess_RSM">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_026_MPLSVTWSOpptyApprovalProcess_RSM"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPLSVTWSOpptyApprovalProcess_RSM -->
+      <class name="com.tests.TC_MPSAusOpptyApprovalProcess_SalesDir">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_055_MPSAusOpptyApprovalProcess_SalesDir"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPSAusOpptyApprovalProcess_SalesDir -->
+      <class name="com.tests.TC_MPBidwellOpptyApprovalProcess3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_033_MPBidwellOpptyApprovalProcess3"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPBidwellOpptyApprovalProcess3 -->
+      <class name="com.tests.TC_MPLSVPowerscreenOpptyApprovalProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_024_MPLSVPowerscreenOpptyApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPLSVPowerscreenOpptyApprovalProcess -->
+      <class name="com.tests.TC_MPAdvanceMixerRSMSD_T_OR_F">
+        <methods>
+          <include name="TC_028_MPAdvMixersOpptyApprovalProcess2_SalesMg"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPAdvanceMixerRSMSD_T_OR_F -->
+      <class name="com.tests.TC_MPFuchsOpportunityDOA_RoW25_MHL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC011_MPFuchsE2EApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFuchsOpportunityDOA_RoW25_MHL -->
+      <class name="com.tests.TC_MPFuchsOpptyDOA40_NotMHL_Heribert">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC020_MPFuchsE2EApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFuchsOpptyDOA40_NotMHL_Heribert -->
+      <class name="com.tests.TC_MP_MPSERAOpportunityProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="MP_MPSERAOpportunityProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MP_MPSERAOpportunityProcess -->
+      <class name="com.tests.TC_MPCBIStandardTermsApprovalProcessRichard">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_03_MPCBIStandardTermsApprovalProcessRichard"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPCBIStandardTermsApprovalProcessRichard -->
+      <class name="com.tests.TC_MPLSVFinlayOpptyApprovalProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC022_MPLSVFinlayOpptyApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPLSVFinlayOpptyApprovalProcess -->
+      <class name="com.tests.TC_MPFrannaOpptyApprovalProcess_SalesDir">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_051_MPFrannaOpptyApprovalProcess_SalesDir"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFrannaOpptyApprovalProcess_SalesDir -->
+      <class name="com.tests.TC_MPHosurExport2to5ApprovalProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC56MPHosurExport2to5ApprovalProcess"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPHosurExport2to5ApprovalProcess -->
+      <class name="com.tests.TC_MPLSVEvoQuipE2EApprovalProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC21_MPLSVEvoQuipE2EApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPLSVEvoQuipE2EApprovalProcess -->
+      <class name="com.tests.TC_MPFrannaOpptyApprovalProcess_RSM">
+        <methods>
+          <include name="TC_050_MPFrannaOpptyApprovalProcess_RSM"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFrannaOpptyApprovalProcess_RSM -->
+      <class name="com.tests.TC_MPCBIStandardOwnerBasedProcessN2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC03_MPCBIStandardOtherOwnersProcess"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPCBIStandardOwnerBasedProcessN2 -->
+      <class name="com.tests.TC_MPFuchsOpportuntyDOA_AsiaRSM30_NotMHL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC016_MPFuchsE2EApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFuchsOpportuntyDOA_AsiaRSM30_NotMHL -->
+      <class name="com.tests.TC_MPFuchsOpptyDOA27_5MHL_Comsn_Heribert">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC017_MPFuchsE2EApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFuchsOpptyDOA27_5MHL_Comsn_Heribert -->
+      <class name="com.tests.TC_MPMPSAmericasDealerNoRole">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC038_MPMPSAmericasDealerNoRole"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPMPSAmericasDealerNoRole -->
+      <class name="com.tests.TC_MPSAusOpptyApprovalProcess_SalesMgr">
+        <methods>
+          <include name="TC_053_MPSAusOpptyApprovalProcess_SalesMgr"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPSAusOpptyApprovalProcess_SalesMgr -->
+      <class name="com.tests.TC_MPHosurMalaysiaProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_042_MPHosurMalaysiaProcess"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPHosurMalaysiaProcess -->
+      <class name="com.tests.TC_MPAdvanceMixerSalesManagerN_SD_T">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_030_MPAdvanceMixerSalesManagerN"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPAdvanceMixerSalesManagerN_SD_T -->
+      <class name="com.tests.TC_MPEcotecOpportunityApprovalProcess_Conor">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_07_MPEcotecOpportunityApprovalProcess_Conor"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPEcotecOpportunityApprovalProcess_Conor -->
+      <class name="com.tests.TC_MPBidwellOpptyApprovalProcess2">
+        <methods>
+          <include name="TC_032_MPBidwellOpptyApprovalProcess2"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPBidwellOpptyApprovalProcess2 -->
+      <class name="com.tests.TC_MPMPSAmericasCRSMorSCM">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC036_MPMPSAmericasCRSMorSCM"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPMPSAmericasCRSMorSCM -->
+      <class name="com.tests.TC_MPFuchsOpportunityDOA_RoW30_NotMHL">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC013_MPFuchsE2EApprovalProcess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFuchsOpportunityDOA_RoW30_NotMHL -->
+      <class name="com.tests.TC_MPLSVEvoQuipOpportunityApproval_MattD">
+        <methods>
+          <include name="tearDown"/>
+          <include name="MPLSVEvoQuipOpportunityApproval_MattD"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPLSVEvoQuipOpportunityApproval_MattD -->
+      <class name="com.tests.TC_MP_CBI_Non_Standard_Other_Owners_Processooptyapprovalprocess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_02_MP_CBI_Non_Standard_Other_Owners_Processooptyapprovalprocess"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MP_CBI_Non_Standard_Other_Owners_Processooptyapprovalprocess -->
+      <class name="com.tests.TC_MPMPSAmericasSRSMorCSM">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_39_MPMPSAmericasSRSMorCSM"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPMPSAmericasSRSMorCSM -->
+      <class name="com.tests.TC_MPFuchsOpptyDOA32_5_Not_MHL_Heribert">
+        <methods>
+          <include name="TC019_MPFuchsE2EApprovalProcess"/>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPFuchsOpptyDOA32_5_Not_MHL_Heribert -->
+      <class name="com.tests.TC_MPEvoQuipOpportunityApprovalProcess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="TC_08_MPEvoQuipOpportunityApprovalProcess"/>
+        </methods>
+      </class> <!-- com.tests.TC_MPEvoQuipOpportunityApprovalProcess -->
+    </classes>
+  </test> <!-- com.tests(failed) -->
+</suite> <!-- Failed suite [GritFormsProject by packages] -->
