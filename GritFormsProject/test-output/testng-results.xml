@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="25209" started-at="2021-08-09T08:58:34Z" finished-at="2021-08-09T08:58:59Z">
+  <suite started-at="2022-08-26T12:06:20Z" name="Test Suite" finished-at="2022-08-26T12:06:46Z" duration-ms="26072">
     <groups>
     </groups>
-    <test name="ToolsQA Tests" duration-ms="25209" started-at="2021-08-09T08:58:34Z" finished-at="2021-08-09T08:58:59Z">
+    <test started-at="2022-08-26T12:06:20Z" name="ToolsQA Tests" finished-at="2022-08-26T12:06:46Z" duration-ms="26072">
       <class name="com.tests.TC_Element_Dynamic_Properties">
-        <test-method status="PASS" signature="funcBeforeTest()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="funcBeforeTest" is-config="true" duration-ms="7" started-at="2021-08-09T14:28:34Z" finished-at="2021-08-09T14:28:34Z">
+        <test-method is-config="true" signature="funcBeforeTest()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:20Z" name="funcBeforeTest" finished-at="2022-08-26T17:36:20Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- funcBeforeTest -->
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="initializeTestBaseSetup" is-config="true" duration-ms="14730" started-at="2021-08-09T14:28:34Z" finished-at="2021-08-09T14:28:49Z">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:20Z" name="initializeTestBaseSetup" finished-at="2022-08-26T17:36:36Z" duration-ms="15790" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,47 +27,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="checkButton1()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="checkButton1" duration-ms="5648" started-at="2021-08-09T14:28:49Z" finished-at="2021-08-09T14:28:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkButton1 -->
-        <test-method status="PASS" signature="checkVisible()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="checkVisible" duration-ms="5830" started-at="2021-08-09T14:28:49Z" finished-at="2021-08-09T14:28:55Z">
+        <test-method signature="checkVisible()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:36Z" name="checkVisible" finished-at="2022-08-26T17:36:41Z" duration-ms="5554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkVisible -->
-        <test-method status="PASS" signature="funcBeforeMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="funcBeforeMethod" is-config="true" duration-ms="0" started-at="2021-08-09T14:28:49Z" finished-at="2021-08-09T14:28:49Z">
+        <test-method is-config="true" signature="funcBeforeMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:36Z" name="funcBeforeMethod" finished-at="2022-08-26T17:36:36Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- funcBeforeMethod -->
-        <test-method status="PASS" signature="funcBeforeMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="funcBeforeMethod" is-config="true" duration-ms="0" started-at="2021-08-09T14:28:49Z" finished-at="2021-08-09T14:28:49Z">
+        <test-method is-config="true" signature="funcBeforeMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:36Z" name="funcBeforeMethod" finished-at="2022-08-26T17:36:36Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- funcBeforeMethod -->
-        <test-method status="PASS" signature="funcAfterMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="funcAfterMethod" is-config="true" duration-ms="0" started-at="2021-08-09T14:28:55Z" finished-at="2021-08-09T14:28:55Z">
+        <test-method signature="checkButton1()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:36Z" name="checkButton1" finished-at="2022-08-26T17:36:41Z" duration-ms="5671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkButton1 -->
+        <test-method is-config="true" signature="funcAfterMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:41Z" name="funcAfterMethod" finished-at="2022-08-26T17:36:41Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- funcAfterMethod -->
-        <test-method status="PASS" signature="checkVisibleFluent()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="checkVisibleFluent" duration-ms="389" started-at="2021-08-09T14:28:55Z" finished-at="2021-08-09T14:28:55Z">
+        <test-method signature="checkVisibleFluent()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:41Z" name="checkVisibleFluent" finished-at="2022-08-26T17:36:42Z" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkVisibleFluent -->
-        <test-method status="PASS" signature="funcBeforeMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="funcBeforeMethod" is-config="true" duration-ms="0" started-at="2021-08-09T14:28:55Z" finished-at="2021-08-09T14:28:55Z">
+        <test-method is-config="true" signature="funcBeforeMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:41Z" name="funcBeforeMethod" finished-at="2022-08-26T17:36:41Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- funcBeforeMethod -->
-        <test-method status="PASS" signature="funcAfterMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="funcAfterMethod" is-config="true" duration-ms="1" started-at="2021-08-09T14:28:55Z" finished-at="2021-08-09T14:28:55Z">
+        <test-method is-config="true" signature="funcAfterMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:41Z" name="funcAfterMethod" finished-at="2022-08-26T17:36:41Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- funcAfterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="tearDown" is-config="true" duration-ms="4420" started-at="2021-08-09T14:28:55Z" finished-at="2021-08-09T14:28:59Z">
+        <test-method is-config="true" signature="funcAfterMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:42Z" name="funcAfterMethod" finished-at="2022-08-26T17:36:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funcAfterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:42Z" name="tearDown" finished-at="2022-08-26T17:36:46Z" duration-ms="4410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="funcAfterMethod()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="funcAfterMethod" is-config="true" duration-ms="0" started-at="2021-08-09T14:28:55Z" finished-at="2021-08-09T14:28:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- funcAfterMethod -->
-        <test-method status="PASS" signature="funcAfterTest()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@271053e1]" name="funcAfterTest" is-config="true" duration-ms="0" started-at="2021-08-09T14:28:59Z" finished-at="2021-08-09T14:28:59Z">
+        <test-method is-config="true" signature="funcAfterTest()[pri:0, instance:com.tests.TC_Element_Dynamic_Properties@236e3f4e]" started-at="2022-08-26T17:36:46Z" name="funcAfterTest" finished-at="2022-08-26T17:36:46Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- funcAfterTest -->
